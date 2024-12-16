@@ -12,3 +12,11 @@
         margin-left: 0px !important;
     }
 }
+
+a {
+    text-decoration: none !important;
+}
+a:hover {
+    color: #d512a4 !important;
+    text-decoration: underline !important;
+}

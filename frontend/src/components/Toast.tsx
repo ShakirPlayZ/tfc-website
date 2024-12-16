@@ -4,12 +4,12 @@ import Toast from 'react-bootstrap/Toast';
 import Button from 'react-bootstrap/Button';
 
 
-const ToastComponent: React.FC<{title:string, time: string, message: string}> = ({title, time, message}) => {
+const ToastComponent: React.FC<{label: string, title:string, time: string, message: string}> = ({label, title, time, message}) => {
     const [show, toggleShow] = useState(true);
 
     return (
         <>
-            {!show && <Button onClick={() => toggleShow(true)}>Show Toast</Button>}
+            {!show && <Button className="col-2" onClick={() => toggleShow(true)}>{label} anzeigen</Button>}
 
             <Toast show={show} onClose={() => toggleShow(false)}>
                 <Toast.Header>
