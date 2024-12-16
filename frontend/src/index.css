@@ -1,9 +1,23 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+body {
+    background-image: url("../public/pageBG.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
 .ml-1 {
-    margin-left: 1rem;
+    margin-left: 0.5rem;
 }
 
 .ml-2 {
     margin-left: 2rem;
+}
+
+.mr-1 {
+    margin-right: 0.5rem;
 }
 
 .toast-header {
@@ -16,7 +30,12 @@
 a {
     text-decoration: none !important;
 }
-a:hover {
-    color: #d512a4 !important;
-    text-decoration: underline !important;
+
+.customButton {
+    text-decoration: none !important;
+    font-size: large !important;
+}
+
+.customButton:hover {
+    color: #df1212 !important;
 }
