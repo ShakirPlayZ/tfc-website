@@ -3,27 +3,12 @@ import React from 'react';
 const HomePage: React.FC = () => {
     return (
         <>
-            <div className="container">
-                <header className="blog-header py-3">
-                    <div className="row flex-nowrap justify-content-between align-items-center">
-                        <div className="col-4 pt-1">
-                            <img src="../../public/pageLogo-d9340b4a.png" alt="The Forgotten City" width="64" />
-                        </div>
-                        <div className="col-4 text-center">
-                            <a className="blog-header-logo text-dark" href="#">The Forgotten City</a><br />
-                            <small className="text-muted">GTA5 RP Roleplay Server</small>
-                        </div>
-                        <div className="col-4 d-flex justify-content-end align-items-center">
-                            <a className="btn btn-sm btn-outline-primary" href="#">Player Login</a>
-                        </div>
-                    </div>
-                </header>
-
+            <div className="container border-radius-3 p-3 mb-1 mt-10">
                 <div className="nav-scroller py-1 mb-2">
                     <nav className="nav d-flex justify-content-between">
                         <a className="p-2 text-muted customButton" href="#">
                             <i className="bi-house mr-1"></i>
-                            World
+                            Home
                         </a>
                     </nav>
                 </div>
@@ -68,7 +53,7 @@ const HomePage: React.FC = () => {
                 </div>
             </div>
 
-            <main role="main" className="container">
+            <main role="main" className="container border-radius-3 p-3">
                 <div className="row">
                     <div className="col-md-8 blog-main">
                         <h3 className="pb-3 mb-4 font-italic border-bottom">

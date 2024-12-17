@@ -20,11 +20,36 @@ body {
     margin-right: 0.5rem;
 }
 
+.mt-10 {
+    margin-top: 100px !important;
+}
+
+.mb-4 {
+    margin-bottom: 40px !important;
+}
+
+.bg-dark {
+    color: #e5e5e5 !important;
+    background-color: #282828 !important;
+}
+
+.nav-link:hover {
+    color: #df1212 !important;
+}
+
 .toast-header {
     .btn-close {
         position: absolute;
         margin-left: 0px !important;
     }
+}
+
+.text-size-small {
+    font-size: small !important;
+}
+
+.border-radius-3 {
+    border-radius: 0.30rem !important;
 }
 
 a {
