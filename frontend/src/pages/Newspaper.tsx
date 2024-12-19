@@ -74,7 +74,7 @@ const NewspaperPage: React.FC = () => {
                         </h3>
 
                         <div className="blog-post">
-                            <h2 className="blog-post-title">Eine postapokalyptische Ästhetik</h2>
+                            <h2 className="blog-post-title">Eine postapokalyptische Ästhetik!</h2>
                             <p className="blog-post-meta">15. Dezember 1977</p>
                             <p>
                                 Die Insel vereint eine unverkennbare sowjetische Ästhetik mit Elementen eines
