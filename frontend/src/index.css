@@ -20,6 +20,10 @@ body {
     margin-right: 0.5rem;
 }
 
+.mr-2 {
+    margin-right: 2rem;
+}
+
 .mt-10 {
     margin-top: 100px !important;
 }
@@ -28,13 +32,27 @@ body {
     margin-bottom: 40px !important;
 }
 
+.mb-5 {
+    margin-bottom: 50px !important;
+}
+
 .bg-dark {
     color: #e5e5e5 !important;
     background-color: #282828 !important;
 }
 
+.img-float-left {
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+
 .nav-link:hover {
     color: #df1212 !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: transparent !important;
 }
 
 .toast-header {
