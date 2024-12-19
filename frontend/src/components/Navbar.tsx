@@ -14,8 +14,7 @@ const NavbarComponent: React.FC = () => {
                 </a>
 
                 <ul className="nav nav-pills navbar-text">
-                    <li className="nav-item mr-2"><Navbar as={NavLink} to="/" className="nav-link text-white app-menu-button">Home</Navbar></li>
-                    <li className="nav-item"><Navbar as={NavLink} to="/newspaper" className="nav-link text-white app-menu-button">IC Zeitung</Navbar></li>
+                    <li className="nav-item mr-2"><Navbar as={NavLink} to="/" className="nav-link text-white app-menu-button">Aktuelles</Navbar></li>
                 </ul>
             </header>
         </>
