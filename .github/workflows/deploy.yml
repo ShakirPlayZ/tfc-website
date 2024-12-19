@@ -34,5 +34,6 @@ jobs:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps  # Aktiviert FTPS
           local-dir: ./frontend/dist/  # Passe dies an deinen Build-Ordner an
           server-dir: ${{ secrets.FTP_PATH }}  # Optional: Zielpfad auf dem FTP-Server
