@@ -29,7 +29,7 @@ jobs:
 
       # Dateien auf den FTP-Server hochladen
       - name: Deploy to FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5  # Korrekte Version angeben
         with:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
