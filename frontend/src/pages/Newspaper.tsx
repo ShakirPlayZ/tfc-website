@@ -21,6 +21,7 @@ const NewspaperPage: React.FC = () => {
                                 <p className="card-text mb-auto">
                                     <h3>Bugrino Times Sonderausgabe</h3><br/>
                                     <br/>
+                                    <img width="450px" src="Heroisch.jpg" className="img-float-left" alt="Paper1"/>
                                     <b>"Ein neuer Morgen für Bugrino – Für das Volk, durch das Volk!"</b><br/>
                                     <br/>
                                     <i>Bugrino – Die vergessene Bastion des Sozialismus erwacht und erhebt sich mit revolutionärem Geist.</i><br/>
