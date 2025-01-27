@@ -8,6 +8,56 @@ const NewspaperPage: React.FC = () => {
                     <nav className="nav d-flex justify-content-between">
                         <a className="p-2 text-muted customButton" href="#">
                             <i className="bi-newspaper mr-1"></i>
+                            27. Januar 1977
+                        </a>
+                    </nav>
+                </div>
+
+                <div className="row mb-2 mt-3">
+                    <div className="col-md-12">
+                        <div className="card flex-md-row mb-4 box-shadow h-md-250">
+                            <div className="card-body d-flex flex-column align-items-start">
+                                <strong className="d-inline-block mb-2 text-success">Der Alltag auf Bugrino</strong>
+                                <p className="card-text mb-auto">
+                                    <h3>Bugrino Times Sonderausgabe</h3><br/>
+                                    <br/>
+                                    <b>"Ein neuer Morgen für Bugrino – Für das Volk, durch das Volk!"</b><br/>
+                                    <br/>
+                                    <i>Bugrino – Die vergessene Bastion des Sozialismus erwacht und erhebt sich mit revolutionärem Geist.</i><br/>
+                                    <br/>
+                                    Genossen! Heute beginnen wir ein neues Kapitel in der ruhmreichen Geschichte unserer Insel Bugrino! In Treue zu den Prinzipien des Sozialismus haben die Arbeiter, Bauern und Verteidiger unseres geliebten Landes unermüdlich daran gearbeitet, die Schatten der Vergangenheit zu vertreiben und eine strahlende Zukunft zu gestalten. Mit großer Freude und Stolz verkünden wir den offiziellen Start der "Forgotten City RP" am 02.02.2025 – ein Projekt, das die Ideale der Arbeiterklasse ehren und die kollektive Kraft unseres Volkes zelebrieren wird.<br/>
+                                    <br/>
+                                    <b>Ein Volk, ein Ziel, eine Stadt!</b><br/>
+                                    <br/>
+                                    Bugrino, die stolze Stadt des Fortschritts, hat schwere Zeiten überstanden: den großen Reaktorunfall, die dunklen Tage der imperialistischen Isolation und die harten Prüfungen des Klassenkampfes. Doch heute stehen wir aufrecht und geeint unter dem Banner der roten Fahne, bereit, aus den Ruinen eine glorreiche, sozialistische Gesellschaft aufzubauen. Unsere Liquidatoren, Soldaten, Wissenschaftler und Arbeiter haben bewiesen, dass wahre Stärke in der unerschütterlichen Solidarität des Proletariats liegt.<br/>
+                                    <br/>
+                                    <b>Was erwartet dich in Bugrino?</b><br/>
+                                    <br/>
+                                    Eine kollektive Gesellschaft: Schließe dich der Polizei, der Feuerwehr, dem KGB oder den Liquidatoren an, um dem Volk zu dienen und die Ordnung des Sozialismus zu sichern.<br/>
+                                    Wiederaufbau durch die Massen: Ob in der Landwirtschaft oder in der Industrie, jeder Genosse hat einen Platz im Aufbau unserer sozialistischen Zukunft.<br/>
+                                    Post-apokalyptische Erkundung: Entdecke die vergessenen Ecken unserer Insel, finde wertvolle Ressourcen und schütze die Geheimnisse des Reaktors für das Wohl des Kollektivs.<br/>
+                                    Kommunistische Werte leben: Arbeite nicht nur für dich, sondern für das Wohl der Gemeinschaft. Der Erfolg des Einzelnen ist der Erfolg aller!<br/>
+                                    <br/>
+                                    <b>Die Welt blickt auf uns!</b><br/>
+                                    <br/>
+                                    Bugrino ist mehr als eine Stadt – es ist ein Leuchtfeuer der Hoffnung, ein Symbol für die unbezwingbare Macht der vereinten Arbeiterklasse. Jeder Genosse, der sich "Forgotten City RP" anschließt, wird Teil einer historischen Bewegung. Gemeinsam werden wir Bugrino zu einem Leuchtturm des Sozialismus machen und der Welt zeigen, dass der Geist des Kommunismus ungebrochen ist.<br/>
+                                    <br/>
+                                    <b>"Ein Herz, ein Geist, eine Revolution!"</b><br/>
+                                    <br/>
+                                    Genossen, erhebt euch! Jetzt ist die Zeit, Geschichte zu schreiben. Am 02.02.2025 öffnen die Tore der Forgotten City – das Kollektiv ruft dich!<br/>
+                                    <br/>
+                                    Ehre den Arbeitern! Lang lebe Bugrino! Ruhm dem Sozialismus!<br/>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="container border-radius-3 p-3 mb-1 mt-10">
+                <div className="nav-scroller py-1 mb-2">
+                    <nav className="nav d-flex justify-content-between">
+                        <a className="p-2 text-muted customButton" href="#">
+                            <i className="bi-newspaper mr-1"></i>
                             18. Dezember 1977
                         </a>
                     </nav>
